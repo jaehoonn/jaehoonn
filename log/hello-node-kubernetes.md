@@ -1,0 +1,49 @@
+---
+title: "2.Hello Node Kubernetes"
+slug: hello-node-kubernetes
+description: null
+date: 2019-01-08T13:13:09+09:00
+type: posts
+draft: false 
+categories:
+- til 
+tags:
+- studyjam
+- kubernetes
+series:
+-
+---
+
+2번째 과정에서는 Kubernetes의 기본적인 동작 방식에 대해서 알아 볼 수 있었다.
+
+
+
+Kubernetes의 클러스터를 생성하는 과정은 Google Cloud Platform에서 기능을 제공하고 있어서 아주 간편했다.
+
+책을 보면서 Kubernetes 공부를 처음 시작하는 과정에서 가장 시간을 많이 소비하게 되는 부분이었는데, 플랫폼에서 제공되는 기능을 glcoud를 이용해서 node와 각 node의 기본적인 설정을 지정후 cluster를 생성하는 명령 하나로 모든 과정이 생략될 수 있게 되었다.
+
+
+
+그리고 Registry Server에 등록해 놓았던 Image를 이용해서 직접 "Pod"를 만들어보고, "Pod"의 개념과 "Deployment"의 개념이 무엇인지에 대해서 대략적으로 알아 볼 수 있었다.
+
+
+
+다음으로 "Service"를 이용하면, 배포된 "Pod"들이 어떻게 외부에 노출이 될 수 있는지에 대해서 알아 볼 수 있었다.
+
+기존에는 로컬 머신에서 VM들을 생성해서 학습을 하다 보니 외부에 정말 노출이 되는건가? 라는 의문이 들었었는데, "LoadBalancer"를 통해서 IP를 할당 받아서 해보니, 제공하고자 하는 기능이 "Service"를 통해서 외부에 노출이 될 수 있다는걸 확인 할 수 있었다.
+
+
+
+서비스의 규모를 조정하기 위해서 scale을 이용해서 Pod를 관리하는걸 확인해 볼 수 있기도 했다.
+
+
+
+마지막으로 서비스가 업데이트되었을때 배포를 하기 위한 과정에 대해서 알아보면서 Image를 새로 만들고 Registry Server에 재 등록을 하고 Deployment를 수정하는 과정을 실습해볼 수 있었다. 과정중에 약간 아쉬웠던 점은 Deployment가 수정되고 난 다음에 기존에 Pod가 종료되고 새로운 버전의 Pod가 활성화 되는 과정에 대해서도 확인을 해보면 과정을 이해하는데 더 좋을것 같았다.
+
+(Deployment를 edit하는 과정을 완료하고, 바로 "kubectl get pods"를 해보면 확인이 가능하다.)
+
+
+
+추가 사항으로 Kubernetes 대시보드를 보기 위한 방법을 학습하는 부분에서는 해당 url 뒤에 "ui"로 변경을 해보았으나 대시보드가 보여지지는 않았다.
+
+
