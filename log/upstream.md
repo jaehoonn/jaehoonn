@@ -85,7 +85,7 @@ $ git rebase upstream/master
 Successfully rebased and updated refs/heads/master.
 ```
 
-9. master 브랜치에 upstream으 내용이 적용된 걸 확인한다.
+9. master 브랜치에 upstream의 내용이 적용된 걸 확인한다.
 ```
 $ git log
 .....
