@@ -1,17 +1,6 @@
 ---
 title: "pkg-config 사용"
-slug: 
-description: null
 date: 2015-03-06T01:28:09+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-- pkgconfig
-series:
--
 ---
 
 Go언어를 사용하다보면 C로 만들어진 라이브러리를 사용하기 위해서 cgo가 필요할 때 가 있다.

@@ -1,16 +1,6 @@
 ---
 title: "vendor 관리"
-slug: 
-description: null
 date: 2016-10-14T18:16:35+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-series:
--
 ---
 
 vendoring되어 있는 패키지를 관리해야 할 이유가 무엇인지에 대해서 찾아보다가 좋은 글을 발견했다.  

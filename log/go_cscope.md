@@ -1,17 +1,6 @@
 ---
 title: "cscope 사용(Go)"
-slug: 
-description: null
 date: 2018-08-21T16:34:04+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-- cscope
-series:
--
 ---
 
 

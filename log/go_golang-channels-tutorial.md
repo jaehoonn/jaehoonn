@@ -1,16 +1,6 @@
 ---
 title: "Golang channels tutorial"
-slug: 
-description: null
 date: 2014-12-10T13:12:58+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-series:
--
 ---
 
 최근에 goroutine과 channel에 대해서 학습하다가 설명이 잘 되어 있는 글을 찾아서 번역(이라고 하기에는 뭐하고 정리?) 를 해봤다. 

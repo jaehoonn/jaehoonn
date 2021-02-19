@@ -1,16 +1,6 @@
 ---
 title: "C언어의 배열을 Go언어의 slices로 변환"
-slug: 
-description: null
 date: 2013-09-17T17:10:53+09:00
-type: posts
-draft: false 
-categories:
-- til 
-tags:
-- go
-series:
--
 ---
 
 cgo를 이용하다보면, C언어로 작성된 라이브러리의 리턴값으로 포인터에 구조체가 할당되어서 넘어올때가 있다.  

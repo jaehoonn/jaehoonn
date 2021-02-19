@@ -1,16 +1,6 @@
 ---
 title: "build"
-slug: 
-description: null
 date: 2017-05-25T15:43:40+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags: 
-- go
-series:
--
 ---
 
 소개

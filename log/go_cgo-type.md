@@ -1,16 +1,6 @@
 ---
 title: "type으로 이름 붙여진 구조체의 필드를 사용하기위한 방법"
-slug: 
-description: null
 date: 2013-09-03T17:10:53+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-series:
--
 ---
 
 c로 만들어져 있던 라이브러리를 cgo를 이용해서 포팅(?)을 하는 작업을 하다보면 난감한 부분들이 종종 나타난다.  

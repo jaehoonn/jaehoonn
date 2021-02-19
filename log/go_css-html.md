@@ -1,16 +1,6 @@
 ---
 title: "css와 같은 정적 컨텐츠를 html에서 사용하기 위한 팁"
-slug: 
-description: null
 date: 2016-07-18T10:16:09+09:00  
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-series:
--
 ---
 
 Go의 "net/http"와 "html/template"를 이용해서 html과 css로 만들어진 웹페이지를 만들려고 할때, html 파일이 보여질때 css가 적용되지 않은 상태로 보여진다.  

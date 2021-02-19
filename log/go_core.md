@@ -1,16 +1,6 @@
 ---
 title: "core파일 만들기"
-slug: 
-description: null
 date: 2017-08-01T13:59:57+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-series:
--
 ---
 
 Go언어에서도 core dump를 만드는 방법이 있었다.  

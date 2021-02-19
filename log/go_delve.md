@@ -1,17 +1,6 @@
 ---
 title: "delve를 사용한 Go언어 디버깅"
-slug: 
-description: null
 date: 2017-06-18T23:13:14+09:00  
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- go
-- debug
-series:
--
 ---
 
 소개

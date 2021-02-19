@@ -1,16 +1,6 @@
 ---
 title: "원격지의 branch 사용하기"
-slug: 
-description: null
 date: 2021-02-01T07:17:00+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- git 
-series:
--
 ---
 
 github에 있는 branch를 로컬로 받아와서 작업하고 싶을때 할 수 있는 방법

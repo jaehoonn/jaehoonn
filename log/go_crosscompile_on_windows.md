@@ -1,12 +1,6 @@
 ---
 title: "Powershell에서 할 수 있는 Linux를 위한 빌드"
-description: ""
 date: "2020-05-18T10:52:23+09:00"
-thumbnail: ""
-categories:
-  - til
-tags:
-  - ""
 ---
 
 Windows 환경에서 개발 후 Linux 환경으로 배포하기 위해서 Linux용 바이너리로 빌드가 필요할 때가 있다.   

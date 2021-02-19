@@ -1,16 +1,6 @@
 ---
 title: "upstream 설정"
-slug: 
-description: null
 date: 2021-01-03T03:29:09+09:00
-type: posts
-draft: false 
-categories:
-- til
-tags:
-- git 
-series:
--
 ---
 
 프로젝트 진행하는 과정에서 필요한 upstream 설정

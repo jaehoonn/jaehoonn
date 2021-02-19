@@ -1,12 +1,6 @@
 ---
 title: "docker 설치 후 에러"
-description: ""
 date: "2020-04-08T21:27:50+09:00"
-thumbnail: ""
-categories:
-  - til
-tags:
-  - "docker"
 ---
 
 
